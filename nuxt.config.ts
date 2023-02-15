@@ -32,7 +32,8 @@ const nuxtConfig: Configuration = {
     ],
     script: [
       { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js', defer: true },
-      { src: 'https://load.fomo.com/api/v1/QzQOnaam3aSxhX5LlmptSw/load.js', async: true }
+      { src: 'https://fomo.ngrok.io/api/v1/2_1hH1j3Y5UJdXQIuBm1TA/load.js', async: true },
+      // { src: 'https://load.fomo.com/api/v1/QzQOnaam3aSxhX5LlmptSw/load.js', async: true }
     ],
     link: [
       {
